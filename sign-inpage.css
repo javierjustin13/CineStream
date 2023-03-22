@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;      
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    height: 1202px;
+    width: 100%;
+    background: url(assets/bg-sign-in.png) no-repeat center;
+    background-size: cover;
+    padding-top: 58px;
+}
+
+.logo{
+    width: 367px;
+    height: 155px;
+    margin-left: 80px;
+}
+
+.sign-in-window{
+    margin-top: 82px;
+    align-self: center;
+    width: 645px;
+    height: 670px;
+    background: #000000;
+    padding-top: 60px;
+    padding-right: 87px;
+    padding-left: 87px;
+}
+
+.sign-in-window h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFF500;
+    margin-bottom: 59px;
+}
+
+.sign-in-window p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFF500;
+    padding-top: 8px;
+    padding-left: 18px;
+    margin-bottom: 41px;
+}
+
+.input-box{
+    height: 61px;
+    width: 470px;
+    background: #191919;
+    padding-left: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+input::placeholder, input[type]{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFF500;
+}
+
+.submitbtn{
+    margin-top: 9px;
+    width: 471px;
+    height: 63px;
+    background: #000000;
+    border: 1px solid #FFF500;
+    border-radius: 20px;    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFF500;
+}
+
+.sign-in-window .box{
+    margin-top: 21px;
+    width: 471px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFF500;
+}
+
+.sign-in-window .box div{
+    display: flex;
+    align-content: center;
+}
+
+.input-check{
+    height: 18px;
+    width: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 6px; 
+}
+
+.new{
+    margin-top: 26px;
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFF500;
+}
+
+.new span{
+    color: white;
+}
