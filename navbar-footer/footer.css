@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 footer{
     width: 100%;
@@ -40,6 +40,7 @@ footer{
     font-size: 18px;
     line-height: 22px;
     margin-right: 57px;
+    cursor: pointer;
 }
 
 .footer-logo{
