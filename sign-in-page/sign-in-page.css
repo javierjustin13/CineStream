@@ -12,7 +12,7 @@
     flex-direction: column;
     height: 1202px;
     width: 100%;
-    background: url(assets/bg-sign-in.png) no-repeat center;
+    background: url(../assets/bg-sign-in.png) no-repeat center;
     background-size: cover;
     padding-top: 58px;
 }
