@@ -40,6 +40,7 @@ footer{
     font-size: 18px;
     line-height: 22px;
     margin-right: 57px;
+    cursor: pointer;
 }
 
 .footer-logo{
