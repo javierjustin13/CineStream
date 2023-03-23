@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 header{
     display: flex;
@@ -8,12 +8,15 @@ header{
     height: 176px;
     background-color: #000000;
 }
-
+.header-logo{
+    cursor: pointer;
+}
 
 .header-menu, .header-icons{
     display: flex;
 }
-.header-menu li {
+.header-menu a{
+    text-decoration: none;
     cursor: pointer;
     white-space: nowrap;
     text-align: center;
@@ -24,6 +27,10 @@ header{
     font-size: 20px;
     line-height: 24px;
     color: #FFF500;
+}
+
+.header-menu a:hover{
+    color: white;
 }
 
 .header-icons li{
