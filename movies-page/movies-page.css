@@ -7,3 +7,239 @@
     text-decoration: none;
     list-style: none;      
 }
+
+body{
+    background-color: black;
+}
+
+.movies-page{
+    background-color: black;
+    width: 100%;
+    height: 1051px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 36;
+    color: white;
+    margin-left: 49px;
+}
+
+.movies{
+    width: 100%;
+    height: 1051px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+}
+
+.movies-1{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie-1{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies-themenu.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.title{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20;
+    color: white;
+    margin-right: 27.84px;
+    margin-bottom: 12.73px;
+}
+
+.movie-2{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies-onward.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-3{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies-mirai.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-4{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies-dracula.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movies-2{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie-5{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies-kungfupanda.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-6{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies-shazam.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-7{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies-eternals.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-8{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies-sriasih.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movies-3{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie-9{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies-divergent.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-10{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies_arrival.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-11{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies_blackadam.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-12{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies_reuniz.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movies-4{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie-13{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies_kaudandia.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-14{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies_1917.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-15{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies_thedeparted.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.movie-16{
+    width: 290px;
+    height: 168.12px;
+    background: url(../assets/movies_dune.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
