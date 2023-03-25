@@ -6,3 +6,246 @@
     text-decoration: none;
     list-style: none;      
 }
+
+body{
+    background-color: black !important;
+}
+
+.proile-page{
+    width: 100%;
+    height: 1051px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-content{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 63px;
+    margin-bottom: 176.04px;
+    width: 1004px;
+    height: 730px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.account{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+
+.members{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image{
+    /* margin-top: 10px; */
+    margin-left: 18px;
+    /* margin-bottom: 28px; */
+    width: 25px;
+    height: 25px;
+    background: url(../assets/members.png) no-repeat center;
+    background-size: cover;
+}
+
+.since{
+    font-family: 'Montserrat';
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+}
+
+.profile-line{
+    margin-top: 19px;
+    height: 3px;
+    width: 100%;
+    background-color: #FFF500;
+}
+
+.membershipandbilling{
+    margin-top: 18.04px;
+    width: 1000px;
+    height: 298px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.title{
+    width: 286px;
+    height: 298px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    /* background-color: aquamarine; */
+}
+
+.billing{
+    margin-left: 54px;
+    width: 269px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.profile-data{
+    /* margin-left: 54px; */
+    width: 220px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.data{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: white;
+}
+
+.profile-card{
+    margin-top: 55.87px;
+    /* margin-left: 54px; */
+    width: 269px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: blue; */
+}
+
+.profile-fitur{
+    margin-left: 160.91px;
+    width: 231px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.change-data{
+    width: 179px;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.fitur{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #FFF500;
+    text-align: right;
+}
+
+.change-billing{
+    margin-top: 26px;
+    width: 231px;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.promo-code{
+    margin-top: 26px;
+    width: 225px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.plan-details{
+    margin-top: 18.09px;
+    width: 1000px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.definition{
+    width: 164px;
+    height: 18px;
+    margin-left: 54px;
+}
+
+.change-plan{
+    width: 98px;
+    height: 15px;
+    margin-left: 398px;
+}
+
+.securityandprivacy{
+    margin-top: 18.09px;
+    width: 1000px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.descriptions{
+    width: 350px;
+    height: 36px;
+    margin-left: 54px;
+}
+
+.manage-access{
+    width: 281px;
+    height: 72px;
+    margin-left: 30px;
+}
+
+.settings{
+    margin-top: 18.09px;
+    width: 688px;
+    height: 102px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.settings-fitur{
+    width: 349px;
+    height: 99px;
+    margin-left: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.settings-text{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #FFF500;
+    text-align: left;
+}
