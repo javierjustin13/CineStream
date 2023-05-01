@@ -6,3 +6,43 @@
     text-decoration: none;
     list-style: none;      
 }
+
+body > h1{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 2vw;
+    color: white;
+    margin-top: 3.125vw;
+    margin-left: 3.125vw;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.125vw;
+}
+
+#list2{
+    margin-bottom: 10.208vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.125vw;
+}
+
+.content > img{
+    width: 20.833vw;
+}
+
+.content > p{
+    padding-top: 1.302vw;
+    padding-left: 1.302vw;
+    padding-bottom: 1.302vw;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #313131;
+}
