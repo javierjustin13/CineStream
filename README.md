@@ -42,3 +42,6 @@ https://javierjustin13.github.io/CineStream/
 
 ### Series Page
 ![Series Page](https://user-images.githubusercontent.com/88891911/235415629-a148c2e9-2cfe-419f-ac24-bd5e9137e4cf.png)
+
+### Favorite Page
+![Favorite Page](https://user-images.githubusercontent.com/88891911/236395354-a4a75d30-1bd7-496d-b3fb-72b1545041a0.png)
